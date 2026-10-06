@@ -14,9 +14,9 @@ if [[ "$SOURCE_FILE" == *.cpp ]] || [[ "$SOURCE_FILE" == *.cc ]]; then
   COMPILER="clang++"
   VERSION=$(
     cat <<'EOF'
--std=c++17	Chuẩn C++17 (ISO/IEC 14882:2017)	C++
--std=c++20	Chuẩn C++20 (ISO/IEC 14882:2020)	C++
 -std=c++23	Chuẩn C++23 (ISO/IEC 14882:2023)	C++
+-std=c++20	Chuẩn C++20 (ISO/IEC 14882:2020)	C++
+-std=c++17	Chuẩn C++17 (ISO/IEC 14882:2017)	C++
 EOF
   )
 
